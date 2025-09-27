@@ -125,6 +125,16 @@ public class SometimesgoodSometimesbadBOT : Bot
     // We hit another bot -> back up!
     public override void OnHitBot(HitBotEvent e)
     {
+        var bearing = BearingTo(e.X, e.Y);
+        if (bearing > -10 && bearing < 10)
+        {
+            Fire(3);
+        }
+        if (e.IsRammed)
+        {
+            TurnRight(10);
+        }
+        
         // If we're moving into the other bot, reverse!
         if (e.IsRammed)
         {
@@ -135,12 +145,14 @@ public class SometimesgoodSometimesbadBOT : Bot
 
     public void CalculateWalls()
     {
-        
+
         leftWall = margin;
         rightWall = ArenaWidth - margin;
         topWall = margin;
         bottomWall = ArenaHeight - margin;
     }
+    
+    
 }
 
 // Condition that is triggered when the turning is complete
