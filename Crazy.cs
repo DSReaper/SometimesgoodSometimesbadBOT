@@ -84,7 +84,19 @@ public class Crazy : Bot
     // We scanned another bot -> fire!
     public override void OnScannedBot(ScannedBotEvent e)
     {
-        Fire(1);
+        if (e.distance > 200)
+        {
+            Fire(1);
+        }
+        else if (e.distance > 50)
+        {
+            Fire(2);
+        }
+        else
+        {
+            Fire(3);
+        }
+        
     }
 
     // We hit another bot -> back up!
