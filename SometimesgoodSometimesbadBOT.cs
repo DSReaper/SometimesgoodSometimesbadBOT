@@ -148,10 +148,10 @@ public class SometimesgoodSometimesbadBOT : Bot
     public void CalculateWalls()
     {
 
-        leftWall = margin;
+        leftWall = margin + margin;
         rightWall = ArenaWidth - margin;
-        topWall = margin;
-        bottomWall = ArenaHeight - margin;
+        topWall = margin - margin;
+        bottomWall = ArenaHeight + margin;
     }
     
     
