@@ -41,6 +41,7 @@ public class SometimesgoodSometimesbadBOT : Bot
         // Loop while as long as the bot is running
         while (IsRunning)
         {
+            MaxSpeed = 5;
             // Tell the game we will want to move ahead 40000 -- some large number
             SetForward(40000);
             movingForward = true;
@@ -102,15 +103,15 @@ public class SometimesgoodSometimesbadBOT : Bot
     public override void OnScannedBot(ScannedBotEvent e)
     {
         var distance = DistanceTo(e.X, e.Y);
-        if (distance > 200)
+        if (distance > 1000)
         {
             Fire(1);
         }
-        else if (distance > 50)
+        else if (distance > 500)
         {
             Fire(2);
         }
-        else if (distance > 20)
+        else if (distance > 200)
         {
             Fire(3);
             ReverseDirection();
