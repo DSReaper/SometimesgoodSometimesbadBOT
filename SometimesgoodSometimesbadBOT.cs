@@ -3,20 +3,20 @@ using Robocode.TankRoyale.BotApi.Events;
 using Robocode.TankRoyale.BotApi.Graphics;
 
 // ------------------------------------------------------------------
-// SometimesgoodSometimesbad
+// SometimesgoodSometimesbadBOT
 // ------------------------------------------------------------------
 // A sample bot original made for Robocode by Mathew Nelson.
 //
 // This robot moves in a zigzag pattern while firing at enemies.
 // ------------------------------------------------------------------
-public class SometimesgoodSometimesbad : Bot
+public class SometimesgoodSometimesbadBOT : Bot
 {
     bool movingForward;
 
     // The main method starts our bot
     static void Main()
     {
-        new SometimesgoodSometimesbad().Start();
+        new SometimesgoodSometimesbadBOT().Start();
     }
 
     // Called when a new round is started -> initialize and do some movement

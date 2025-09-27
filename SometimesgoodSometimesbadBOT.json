@@ -1,11 +1,11 @@
 {
-  "name": "Crazy",
+  "name": "SometimesgoodSometimesbadBOT",
   "version": "1.0",
   "authors": [
     "Mathew Nelson",
     "Flemming N. Larsen"
   ],
-  "description": "This bot moves around in a crazy pattern.",
+  "description": "This bot moves around in a sometimes good, sometimes bad pattern.",
   "homepage": "",
   "countryCodes": [
     "us",
