@@ -112,6 +112,7 @@ public class Crazy : Bot
         // If we're moving into the other bot, reverse!
         if (e.IsRammed)
         {
+            Fire(1);
             ReverseDirection();
         }
     }
