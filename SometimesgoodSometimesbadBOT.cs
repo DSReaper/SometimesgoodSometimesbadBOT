@@ -92,6 +92,11 @@ public class SometimesgoodSometimesbadBOT : Bot
         {
             Fire(2);
         }
+        else if (distance > 20)
+        {
+            Fire(3);
+            ReverseDirection();
+        }
         else
         {
             Fire(3);
