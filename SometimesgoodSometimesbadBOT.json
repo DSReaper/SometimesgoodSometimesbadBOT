@@ -2,10 +2,12 @@
   "name": "SometimesgoodSometimesbadBOT",
   "version": "1.0",
   "authors": [
-    "Mathew Nelson",
-    "Flemming N. Larsen"
+    "Barend Blom",
+    "Tarina Snyman",
+    "Estian Stander",
+    "Zac Myburgh"
   ],
-  "description": "This bot moves around in a sometimes good, sometimes bad pattern.",
+  "description": "SometimesgoodSometimesbadBOT",
   "homepage": "",
   "countryCodes": [
     "us",
