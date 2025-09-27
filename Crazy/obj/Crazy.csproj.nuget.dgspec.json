@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream:Crazy/obj/Crazy.csproj.nuget.dgspec.json
     "C:\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\Crazy\\Crazy.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\Crazy\\Crazy.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\Crazy\\obj\\",
+=======
+    "C:\\Users\\User\\Hackafon\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\SometimesgoodSometimesbadBOT.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Hackafon\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\SometimesgoodSometimesbadBOT.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Hackafon\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\SometimesgoodSometimesbadBOT.csproj",
+        "projectName": "SometimesgoodSometimesbadBOT",
+        "projectPath": "C:\\Users\\User\\Hackafon\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\SometimesgoodSometimesbadBOT.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Hackafon\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\obj\\",
+>>>>>>> Stashed changes:obj/SometimesgoodSometimesbadBOT.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

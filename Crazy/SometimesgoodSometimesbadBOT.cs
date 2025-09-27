@@ -2,6 +2,7 @@ using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 using Robocode.TankRoyale.BotApi.Graphics;
 
+<<<<<<< Updated upstream:Crazy/SometimesgoodSometimesbadBOT.cs
 // ------------------------------------------------------------------
 // Crazy
 // ------------------------------------------------------------------
@@ -9,6 +10,8 @@ using Robocode.TankRoyale.BotApi.Graphics;
 //
 // This robot moves in a zigzag pattern while firing at enemies.
 // ------------------------------------------------------------------
+=======
+>>>>>>> Stashed changes:SometimesgoodSometimesbadBOT.cs
 public class SometimesgoodSometimesbadBOT : Bot
 {
     bool movingForward;

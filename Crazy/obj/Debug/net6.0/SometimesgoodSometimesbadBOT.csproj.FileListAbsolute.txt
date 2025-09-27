@@ -1,0 +1,6 @@
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\SometimesgoodSometimesbadBOT.csproj.AssemblyReference.cache
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\SometimesgoodSometimesbadBOT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\SometimesgoodSometimesbadBOT.AssemblyInfoInputs.cache
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\SometimesgoodSometimesbadBOT.AssemblyInfo.cs
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\SometimesgoodSometimesbadBOT.csproj.CoreCompileInputs.cache
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\SometimesgoodSometimesbadBOT.sourcelink.json
