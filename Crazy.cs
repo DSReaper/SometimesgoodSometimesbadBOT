@@ -22,11 +22,11 @@ public class Crazy : Bot
     // Called when a new round is started -> initialize and do some movement
     public override void Run()
     {
-        BodyColor = Color.Blue;   // lime
-        TurretColor = Color.Red; // green
-        RadarColor = Color.Black;  // dark cyan
-        BulletColor = Color.OrangeRed; // yellow
-        ScanColor = Color.Yellow;   // light red
+        BodyColor = Color.Blue;   
+        TurretColor = Color.Red; 
+        RadarColor = Color.Black;  
+        BulletColor = Color.OrangeRed; 
+        ScanColor = Color.Yellow;   
 
         movingForward = true;
 
@@ -84,18 +84,25 @@ public class Crazy : Bot
     // We scanned another bot -> fire!
     public override void OnScannedBot(ScannedBotEvent e)
     {
-        if (e.distance > 200)
+        var distance = DistanceTo(e.X, e.Y);
+        if (distance > 200)
         {
             Fire(1);
         }
-        else if (e.distance > 50)
+        else if (distance > 50)
         {
             Fire(2);
         }
-        else
+        else if (distance > 20)
         {
             Fire(3);
+            ReverseDirection();
         }
+        else
+        {
+            Fire(4);
+        }
+
         
     }
 
@@ -105,6 +112,7 @@ public class Crazy : Bot
         // If we're moving into the other bot, reverse!
         if (e.IsRammed)
         {
+            Fire(1);
             ReverseDirection();
         }
     }
