@@ -13,7 +13,7 @@ public class SometimesgoodSometimesbadBOT : Bot
 {
     bool movingForward;
 
-    public double margin = 500.0;
+    public double margin = 100;
     public double leftWall;
     public double rightWall;
     public double topWall;
@@ -104,15 +104,15 @@ public class SometimesgoodSometimesbadBOT : Bot
     public override void OnScannedBot(ScannedBotEvent e)
     {
         var distance = DistanceTo(e.X, e.Y);
-        if (distance > 1000)
+        if (distance > 500)
         {
             Fire(1);
         }
-        else if (distance > 500)
+        else if (distance > 250)
         {
             Fire(2);
         }
-        else if (distance > 200)
+        else if (distance > 125)
         {
             Fire(3);
             ReverseDirection();
@@ -141,7 +141,6 @@ public class SometimesgoodSometimesbadBOT : Bot
         // If we're moving into the other bot, reverse!
         if (e.IsRammed)
         {
-            Fire(3);
             ReverseDirection();
         }
     }
