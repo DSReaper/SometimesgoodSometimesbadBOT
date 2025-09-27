@@ -13,11 +13,11 @@ public class SometimesgoodSometimesbadBOT : Bot
 {
     bool movingForward;
 
-    double margin = 10.0;
-    double leftWall;
-    double rightWall;
-    double topWall;
-    double bottomWall;
+    public double margin = 10.0;
+    public double leftWall;
+    public double rightWall;
+    public double topWall;
+    public double bottomWall;
 
     // The main method starts our bot
     static void Main()
@@ -33,6 +33,8 @@ public class SometimesgoodSometimesbadBOT : Bot
         RadarColor = Color.Black;
         BulletColor = Color.OrangeRed;
         ScanColor = Color.Yellow;
+
+        CalculateWalls();
 
         movingForward = true;
 
@@ -62,6 +64,15 @@ public class SometimesgoodSometimesbadBOT : Bot
             // ... and wait for that turn to finish.
             WaitFor(new TurnCompleteCondition(this));
             // then back to the top to do it all again.
+
+            if (X < leftWall || X > rightWall || Y < topWall || Y > bottomWall)
+            {
+                //nothing
+            }
+            else
+            {
+                ReverseDirection();
+            }
         }
     }
 
@@ -124,11 +135,11 @@ public class SometimesgoodSometimesbadBOT : Bot
 
     public void CalculateWalls()
     {
-        double margin = 10.0;
-        double leftWall = margin;
-        double rightWall = ArenaWidth - margin;
-        double topWall = margin;
-        double bottomWall = ArenaHeight - margin;
+        
+        leftWall = margin;
+        rightWall = ArenaWidth - margin;
+        topWall = margin;
+        bottomWall = ArenaHeight - margin;
     }
 }
 
