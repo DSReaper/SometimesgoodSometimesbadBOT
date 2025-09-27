@@ -9,14 +9,14 @@ using Robocode.TankRoyale.BotApi.Graphics;
 //
 // This robot moves in a zigzag pattern while firing at enemies.
 // ------------------------------------------------------------------
-public class Crazy : Bot
+public class SometimesgoodSometimesbadBOT : Bot
 {
     bool movingForward;
 
     // The main method starts our bot
     static void Main()
     {
-        new Crazy().Start();
+        new SometimesgoodSometimesbadBOT().Start();
     }
 
     // Called when a new round is started -> initialize and do some movement
@@ -85,6 +85,8 @@ public class Crazy : Bot
     public override void OnScannedBot(ScannedBotEvent e)
     {
         Fire(1);
+
+        
     }
 
     // We hit another bot -> back up!
