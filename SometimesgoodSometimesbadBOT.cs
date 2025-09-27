@@ -41,7 +41,8 @@ public class SometimesgoodSometimesbadBOT : Bot
         // Loop while as long as the bot is running
         while (IsRunning)
         {
-            MaxSpeed = 7;
+            GunTurnRate = 20;
+            MaxSpeed = 6;
             // Tell the game we will want to move ahead 40000 -- some large number
             SetForward(40000);
             movingForward = true;
