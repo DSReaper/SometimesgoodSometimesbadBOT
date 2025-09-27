@@ -6,13 +6,13 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Crazy/1.0.0": {
+      "SometimesgoodSometimesbadBOT/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Robocode.TankRoyale.BotApi": "0.33.1"
         },
         "runtime": {
-          "Crazy.dll": {}
+          "SometimesgoodSometimesbadBOT.dll": {}
         }
       },
       "JetBrains.Annotations/2024.3.0": {
@@ -169,7 +169,7 @@
     }
   },
   "libraries": {
-    "Crazy/1.0.0": {
+    "SometimesgoodSometimesbadBOT/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
