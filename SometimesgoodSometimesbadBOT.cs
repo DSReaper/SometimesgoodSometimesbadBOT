@@ -67,7 +67,7 @@ public class SometimesgoodSometimesbadBOT : Bot
             WaitFor(new TurnCompleteCondition(this));
             // then back to the top to do it all again.
 
-            if (X < leftWall || X > rightWall || Y < topWall || Y > bottomWall)
+            if (X > leftWall || X < rightWall || Y > topWall || Y < bottomWall)
             {
                 //nothing
             }
