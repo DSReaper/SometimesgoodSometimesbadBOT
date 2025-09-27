@@ -13,7 +13,7 @@ public class SometimesgoodSometimesbadBOT : Bot
 {
     bool movingForward;
 
-    public double margin = 100.0;
+    public double margin = 1000.0;
     public double leftWall;
     public double rightWall;
     public double topWall;
