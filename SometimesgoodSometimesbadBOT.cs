@@ -100,7 +100,8 @@ public class SometimesgoodSometimesbadBOT : Bot
         }
         else
         {
-            Fire(4);
+            Fire(3);
+            Fire(3);
         }
         
     }

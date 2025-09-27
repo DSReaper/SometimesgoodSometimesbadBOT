@@ -645,24 +645,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tarin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tarin\\Desktop\\espZAHackathon\\Bot\\SometimesgoodSometimesbadBOT\\SometimesgoodSometimesbadBOT.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Hackafon\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\SometimesgoodSometimesbadBOT.csproj",
       "projectName": "SometimesgoodSometimesbadBOT",
-      "projectPath": "C:\\Users\\tarin\\Desktop\\espZAHackathon\\Bot\\SometimesgoodSometimesbadBOT\\SometimesgoodSometimesbadBOT.csproj",
-      "packagesPath": "C:\\Users\\tarin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tarin\\Desktop\\espZAHackathon\\Bot\\SometimesgoodSometimesbadBOT\\obj\\",
+      "projectPath": "C:\\Users\\User\\Hackafon\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\SometimesgoodSometimesbadBOT.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Hackafon\\EpsaHackathon\\SometimesgoodSometimesbadBOT\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\tarin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -687,8 +682,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net6.0": {
@@ -719,7 +713,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414\\RuntimeIdentifierGraph.json"
       }
     }
   }
