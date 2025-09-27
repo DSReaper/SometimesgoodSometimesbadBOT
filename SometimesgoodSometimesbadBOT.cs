@@ -13,6 +13,12 @@ public class SometimesgoodSometimesbadBOT : Bot
 {
     bool movingForward;
 
+    double margin = 10.0;
+    double leftWall;
+    double rightWall;
+    double topWall;
+    double bottomWall;
+
     // The main method starts our bot
     static void Main()
     {
@@ -22,11 +28,11 @@ public class SometimesgoodSometimesbadBOT : Bot
     // Called when a new round is started -> initialize and do some movement
     public override void Run()
     {
-        BodyColor = Color.Blue;   // lime
-        TurretColor = Color.Red; // green
-        RadarColor = Color.Black;  // dark cyan
-        BulletColor = Color.OrangeRed; // yellow
-        ScanColor = Color.Yellow;   // light red
+        BodyColor = Color.Blue;
+        TurretColor = Color.Red;
+        RadarColor = Color.Black;
+        BulletColor = Color.OrangeRed;
+        ScanColor = Color.Yellow;
 
         movingForward = true;
 
@@ -101,9 +107,8 @@ public class SometimesgoodSometimesbadBOT : Bot
         else
         {
             Fire(3);
-            Fire(3);
         }
-        
+
     }
 
     // We hit another bot -> back up!
@@ -115,6 +120,15 @@ public class SometimesgoodSometimesbadBOT : Bot
             Fire(1);
             ReverseDirection();
         }
+    }
+
+    public void CalculateWalls()
+    {
+        double margin = 10.0;
+        double leftWall = margin;
+        double rightWall = ArenaWidth - margin;
+        double topWall = margin;
+        double bottomWall = ArenaHeight - margin;
     }
 }
 
