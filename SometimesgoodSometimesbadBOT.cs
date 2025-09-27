@@ -108,7 +108,7 @@ public class SometimesgoodSometimesbadBOT : Bot
         {
             Fire(1);
         }
-        else if (distance > 250)
+        else if (distance > 200)
         {
             Fire(2);
         }
