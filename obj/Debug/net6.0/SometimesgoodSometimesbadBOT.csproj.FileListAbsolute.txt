@@ -50,3 +50,9 @@ C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6
 C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\SometimesgoodSometimesbadBOT.dll
 C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\refint\SometimesgoodSometimesbadBOT.dll
 C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\SometimesgoodSometimesbadBOT.pdb
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\bin\Debug\net6.0\SometimesgoodSometimesbadBOT.deps.json
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\bin\Debug\net6.0\SometimesgoodSometimesbadBOT.runtimeconfig.json
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\bin\Debug\net6.0\SometimesgoodSometimesbadBOT.dll
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\bin\Debug\net6.0\SometimesgoodSometimesbadBOT.pdb
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\SometimesgoodSometimesbadBOT.genruntimeconfig.cache
+C:\Users\User\Hackafon\EpsaHackathon\SometimesgoodSometimesbadBOT\obj\Debug\net6.0\ref\SometimesgoodSometimesbadBOT.dll

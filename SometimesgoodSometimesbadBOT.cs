@@ -130,6 +130,7 @@ public class SometimesgoodSometimesbadBOT : Bot
         if (bearing > -10 && bearing < 10)
         {
             Fire(3);
+            
         }
         if (e.IsRammed)
         {
